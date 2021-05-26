@@ -114,9 +114,7 @@ Simply use the `TomlDocument.fromMap` factory constructor to convert the hash ma
 The resulting document can be converted to a TOML encoded string using the `toString` method.
 
 ```dart
-var document = TomlDocument.fromMap({
-  // ...
-}).toString();
+var document = TomlDocument.fromMap("...").toString();
 ```
 
 The type and structure of the hash map should match the format described in the [next section](#data-structure).
